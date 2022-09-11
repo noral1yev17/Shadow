@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.jadon{
+    margin-top: 600px;
+    margin-bottom: 550px;
+    
+    border: 5px solid red;
+    
+   
+}
+.box{
+   
+    justify-content: center;
+    display: flex;
+    
+
+
+}
+.jadon:hover{
+    box-shadow:0px 248px 10px 8px red, 248px 248px 10px 8px yellow ,-248px 248px 10px 8px black ,-248px -248px 10px 8px hotpink ,248px -248px 10px 8px teal ,  248px 0px 10px 8px green , -248px 0px 10px 8px blue ,0px -248px 10px 8px aqua;
+    transition: all .3s linear;
+   border-radius: 130px;
+   outline: 10px double black;
+  
+ 
+
+}
+.container{
+   
+    width: 1120px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+body{
+    background-color: bisque;
+}
+
